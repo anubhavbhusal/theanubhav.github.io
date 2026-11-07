@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV | the anubhav.</title>
+  <meta name="description" content="CV of Anubhav.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="the anubhav. - home"><img src="images/logo.png" alt="the anubhav."></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="main-nav" id="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cv.html" aria-current="page">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="narrow">
+    <header class="page-head">
+      <span class="eyebrow">Curriculum Vitae</span>
+      <h1>Anubhav</h1>
+      <p>A short summary of my education, experience and skills. Note: WILL BE UPLOADED SOON.</p>
+    </header>
+
+    <div class="cv-actions">
+      <!-- EDIT: put your PDF in the "files" folder and name it Anubhav-CV.pdf (or change the name below) -->
+      <a class="btn" href="files/Anubhav-CV.pdf" download>Download CV (PDF)</a>
+      <a class="btn btn--ghost" href="files/Anubhav-CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
+    </div>
+
+    <section class="cv-section">
+      <h2>Education</h2>
+      <!-- EDIT: copy/paste a cv-item block for each entry -->
+      <div class="cv-item">
+        <h3>+2 Science with Biology major, NEB</h3>
+        <p class="when">St. Xavier's College, Maitighar &middot; 2024 to 2026</p>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Experience</h2>
+      <div class="cv-item">
+        <h3>General Member</h3>
+        <p class="when">SET Council &middot; 2024 to Present</p>
+        <ul>
+          <li>Worked for Society and Environment.</li>
+          <li>Leadership</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Writing</li>
+        <li>Coding</li>
+        <li>Empathy</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="links">
+      <a href="https://instagram.com/anubhavbhusal.0/" target="_blank" rel="noopener">Instagram</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!-- EDIT: copyright name/year -->
+    <p>&copy; <span id="year">2026</span> Anubhav. All rights reserved. Content on this website may not be copied or reproduced without permission.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
